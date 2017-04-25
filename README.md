@@ -1,6 +1,7 @@
 # npmtest-long
 
-test coverage for  [long (v3.2.0)](https://github.com/dcodeIO/long.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-long.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-long) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-long.svg)](https://travis-ci.org/npmtest/node-npmtest-long)
+#### basic test coverage for  [long (v3.2.0)](https://github.com/dcodeIO/long.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-long.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-long) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-long.svg)](https://travis-ci.org/npmtest/node-npmtest-long)
+
 #### A Long class for representing a 64-bit two's-complement integer value.
 
 [![NPM](https://nodei.co/npm/long.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/long)
@@ -9,7 +10,7 @@ test coverage for  [long (v3.2.0)](https://github.com/dcodeIO/long.js#readme)  [
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-long/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-long/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-long/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-long/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-long/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-long/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-long/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-long/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-long/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-long/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-long/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-long/build/coverage.html/index.html)
 
@@ -80,7 +81,8 @@ test coverage for  [long (v3.2.0)](https://github.com/dcodeIO/long.js#readme)  [
         "make": "npm run-script build && npm run-script compile && npm run-script compress && npm test",
         "test": "node node_modules/testjs/bin/testjs tests/suite.js"
     },
-    "version": "3.2.0"
+    "version": "3.2.0",
+    "bin": {}
 }
 ```
 
